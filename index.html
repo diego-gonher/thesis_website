@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Diego J. Gonz&aacute;lez-Hern&aacute;ndez &mdash; PhD Thesis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Diego J. Gonz&aacute;lez-Hern&aacute;ndez</strong> PhD Thesis</a>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Enabling, Accelerating, and Improving Statistical Inference for the Epoch of Reionization using Machine Learning</h1>
+										</header>
+										<p>ENIGMA group, Department of Physics<br />
+										University of California, Santa Barbara<br />
+										Advisor: Dr. Joseph F. Hennawi</p>
+									</div>
+								</section>
+
+							<!-- Introduction -->
+								<section id="introduction">
+									<header class="major">
+										<h2>Introduction</h2>
+									</header>
+									<p></p>
+								</section>
+
+							<!-- Chapter 1 -->
+								<hr class="major" />
+								<section id="chapter-1">
+									<header class="major">
+										<p>Chapter 1</p>
+										<h2>Using Neural Emulators and Hamiltonian Monte Carlo to constrain the Epoch of Reionization&rsquo;s History with the Ly&alpha; Forest Power Spectrum</h2>
+									</header>
+									<ul class="actions">
+										<li><a href="#" class="button">arXiv</a><!-- [ARXIV_URL] --></li>
+										<li><a href="#" class="button">Published version</a><!-- [JOURNAL_URL] --></li>
+									</ul>
+									<p>Light from distant quasars passes through intergalactic hydrogen and leaves a pattern of absorption, the Lyman-&alpha; forest, that records how the universe was ionized during the Epoch of Reionization. We built a new analysis pipeline that combines computer simulations of this forest with neural networks that mimic the simulations almost instantly, and with a sampling method that explores possible reionization histories efficiently. The networks reproduce the simulated power spectra to better than one percent, and the pipeline correctly recovers the known parameters of mock observations. The simulations used are still low resolution, so the next step is to improve the reionization models before applying the method to real quasar data.</p>
+								</section>
+
+							<!-- Chapter 2 -->
+								<hr class="major" />
+								<section id="chapter-2">
+									<header class="major">
+										<p>Chapter 2</p>
+										<h2>Calibrated Simulation-Based Inference for the Lyman-&alpha; Forest Autocorrelation Function at the Epoch of Reionization</h2>
+									</header>
+									<ul class="actions">
+										<li><a href="#" class="button">Overleaf</a><!-- [OVERLEAF_URL] --></li>
+										<li><a href="#" class="button">PDF</a><!-- [GOOGLE_DRIVE_URL] --></li>
+									</ul>
+									<p>Measuring the end of reionization from the Lyman-&alpha; forest usually assumes that the data scatter around the model following a simple bell-curve (Gaussian) shape. We show that this assumption produces posteriors that are overconfident or biased, which can lead to wrong conclusions about the universe. We tested several simulation-based inference methods, which learn the statistics directly from simulated data, and found that most of them give well-calibrated results where the Gaussian approach does not. The methods differ in how tightly they constrain the parameters and in how long they take, by up to two orders of magnitude, so it is important to judge them with several tests rather than one.</p>
+								</section>
+
+							<!-- Chapter 3 -->
+								<hr class="major" />
+								<section id="chapter-3">
+									<header class="major">
+										<p>Chapter 3</p>
+										<h2>Calibrated Inference of the IGM Neutral Fraction from Quasar Damping Wing Profiles with Balanced Neural Ratio Estimation</h2>
+									</header>
+									<ul class="actions">
+										<li><a href="#" class="button">Overleaf</a><!-- [OVERLEAF_URL] --></li>
+										<li><a href="#" class="button">PDF</a><!-- [GOOGLE_DRIVE_URL] --></li>
+									</ul>
+									<p>The light of very distant quasars is smoothly dimmed by neutral hydrogen in the intergalactic medium, an effect called the damping wing that reveals how neutral the early universe was and how long the quasar has been shining. Standard analyses assume a Gaussian likelihood, which gives overconfident answers that then have to be corrected after the fact. We tested a machine-learning approach, balanced neural ratio estimation, trained on the same radiative-transfer simulations, and found that it gives better-calibrated results without any correction. It also matches or beats the precision of the corrected Gaussian approach while using about 39 times less sampling computation. The next step is to infer the quasar&rsquo;s intrinsic spectrum together with the intergalactic medium, which is needed to analyze real observations.</p>
+								</section>
+
+							<!-- Chapter 4 -->
+								<hr class="major" />
+								<section id="chapter-4">
+									<header class="major">
+										<p>Chapter 4</p>
+										<h2>GapSBI: A Benchmark for Simulation-Based Inference under Missing Data</h2>
+									</header>
+									<ul class="actions">
+										<li><a href="#" class="button">Overleaf</a><!-- [OVERLEAF_URL] --></li>
+										<li><a href="#" class="button">PDF</a><!-- [GOOGLE_DRIVE_URL] --></li>
+									</ul>
+									<p>Scientists increasingly use simulation-based inference, which trains neural networks on simulated data to estimate model parameters, but real observations are often incomplete. How missing data affects these estimates has not been studied in a controlled way. We built GapSBI, a benchmark with four inference problems, different ways and amounts of data going missing, and different simulation budgets, and used it to compare several methods for handling gaps. No single method wins everywhere: simple approaches are often competitive, stable and cheap, learned reconstruction of the missing values can be unstable when the gaps are structured, and a transformer-based approach is robust and well calibrated but much more expensive.</p>
+								</section>
+
+							<!-- Chapter 5 -->
+								<hr class="major" />
+								<section id="chapter-5">
+									<header class="major">
+										<p>Chapter 5</p>
+										<h2>Characterizing a Tokenizer for a Nyx Foundation Model</h2>
+									</header>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="#introduction">Introduction</a></li>
+										<li><a href="#chapter-1">Chapter 1</a></li>
+										<li><a href="#chapter-2">Chapter 2</a></li>
+										<li><a href="#chapter-3">Chapter 3</a></li>
+										<li><a href="#chapter-4">Chapter 4</a></li>
+										<li><a href="#chapter-5">Chapter 5</a></li>
+									</ul>
+								</nav>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Diego J. Gonz&aacute;lez-Hern&aacute;ndez. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
